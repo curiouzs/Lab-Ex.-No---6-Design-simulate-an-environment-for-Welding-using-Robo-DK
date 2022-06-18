@@ -1,7 +1,6 @@
 # Lab-Ex.-No---6-Design-simulate-an-environment-for-Welding-using-Robo-DK
 
 
- 
 ## AIM:
   To Design & simulate an environment for welding operation using robodk 
 
@@ -18,6 +17,7 @@ Certified human operators still need to remain close to the robots. These worker
 The tool in the robotic arm heats to melt metal to conjoin the desired pieces. As needed, a wire feeder delivers more metal wire to the arm and torch. When awaiting the next parts to weld, the arm moves the torch to the cleaner to clean any metal splatters from the arm, which could solidify in place without this process.
 
 Because one of the primary reasons to have robotic welders is protecting human workers, these automated systems come with multiple safety features. Arc shields prevent the high-heat arc from mixing with oxygen. Enclosed areas protect operators from the temperatures and bright light.
+
 ### ROBOTIC WELDING PROCESSES
 Welding requires a high level of education and skill. However, the number of professional welders does not meet the needs of the industry. According to the American Welding Society, by 2022, the industry will experience a shortage of 450,000 welders. Instead of letting critical projects these workers would complete fall behind, robots can pick up the slack.
 
@@ -95,8 +95,13 @@ risk of interfering with the robot.
 
 ## program:
 ```python
+#Developed By: Lokesh Krishnaa M
+#Register NO: 212220230030
+
+```
+```python
 # RoboDK Python Intermediate file to generate robot programs.
-# Program name: Prog1
+# Program name: DOOSAN ROBOT PROGRAM
 # This file requires the post processor: 
 #   Doosan_Robotics
 # to generate your robot program.
@@ -133,7 +138,7 @@ r.MoveJ(p(-2.25533,73.6122,506.25,-55,0,-180),[50.5473,15.5671,18.4613,-129.057,
 r.MoveJ(p(40.306,60.6497,506.25,-55,0,180),[43.4938,21.9554,7.73618,-122.234,-124.231,143.662],[1,1,0])
 r.MoveJ(p(-3.04895,-73.119,506.25,-40,0,-180),[30.7146,14.5849,19.949,-107.346,-135.635,130.071],[1,1,0])
 r.ProgFinish(r"""Prog1""")
-r.ProgSave(r"""C:/Users/Vignesh/OneDrive/Documents/RoboDK""",r"""Prog1""",True,r"""D:/RoboDK/Other/VSCodium/VSCodium.exe""")
+r.ProgSave(r"""C:/Users/LokiUday/OneDrive/Documents/RoboDK""",r"""DOOSAN ROBOT PROGRAM""",True,r"""D:/RoboDK/Other/VSCodium/VSCodium.exe""")
 
 ```
 ### simulation :
@@ -149,10 +154,6 @@ r.ProgSave(r"""C:/Users/Vignesh/OneDrive/Documents/RoboDK""",r"""Prog1""",True,r
 ![image](https://user-images.githubusercontent.com/74660507/174111315-f3734bb3-612a-463f-94ff-52b48d5d9335.png)
 
 ![image](https://user-images.githubusercontent.com/74660507/174111413-2890e82c-0bf2-402a-b910-cc03a6388ba8.png)
-
-
-
-
 
 ## Results:
  Thus, an environment for welding operation using robodk is Designed & simulated.
